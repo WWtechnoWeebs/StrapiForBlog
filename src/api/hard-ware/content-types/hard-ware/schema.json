@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hard_wares",
+  "info": {
+    "singularName": "hard-ware",
+    "pluralName": "hard-wares",
+    "displayName": "HardWare"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Article": {
+      "type": "richtext"
+    },
+    "LinksOptional": {
+      "type": "string"
+    }
+  }
+}

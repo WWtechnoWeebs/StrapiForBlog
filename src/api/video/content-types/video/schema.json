@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Preview": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "LinkInsta": {
+      "type": "string"
+    },
+    "Linkyt": {
+      "type": "string"
+    },
+    "LinkTikTok": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "soft_wares",
+  "info": {
+    "singularName": "soft-ware",
+    "pluralName": "soft-wares",
+    "displayName": "SoftWare"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Article": {
+      "type": "richtext"
+    },
+    "LinksOptional": {
+      "type": "string"
+    }
+  }
+}
