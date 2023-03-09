@@ -4,7 +4,8 @@
   "info": {
     "singularName": "soft-ware",
     "pluralName": "soft-wares",
-    "displayName": "SoftWare"
+    "displayName": "SoftWare",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,9 @@
     },
     "LinksOptional": {
       "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }
